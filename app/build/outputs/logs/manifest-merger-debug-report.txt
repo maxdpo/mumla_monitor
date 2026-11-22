@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:3:1-54:12
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:3:1-54:12
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:3:1-54:12
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:3:1-54:12
+	package
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:10:22-75
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:12:5-95
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:12:22-92
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:14:22-74
+queries
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:17:5-21:15
+package#se.lublin.mumla
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:18:18-48
+package#se.lublin.mumla.beta
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:19:18-53
+package#se.lublin.mumla.donation
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:20:9-60
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:20:18-57
+application
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:23:5-53:19
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:23:5-53:19
+	android:extractNativeLibs
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:25:9-55
+	android:allowBackup
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:27:9-74
+activity#it.iw2dpo.mumlamonitor.MainActivity
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:launchMode
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:32:13-43
+	android:exported
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:35:27-74
+service#it.iw2dpo.mumlamonitor.WatchdogService
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:40:13-44
+receiver#it.iw2dpo.mumlamonitor.BootReceiver
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:43:9-52:20
+	android:exported
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:44:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:48:13-51:29
+	android:priority
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:48:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:49:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:50:17-84
+	android:name
+		ADDED from C:\mumla_monitor\app\src\main\AndroidManifest.xml:50:25-81
+uses-sdk
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\mumla_monitor\app\src\main\AndroidManifest.xml

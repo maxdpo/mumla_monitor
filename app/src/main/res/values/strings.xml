@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MumlaMonitor</string>
+    <string name="intro">Controlla ogni minuto che Mumla sia aperta e, se la trova chiusa, la riapre in primo piano. Concedi i due permessi qui sotto una sola volta.</string>
+    <string name="btn_overlay">1. Permesso \"Mostra sopra altre app\"</string>
+    <string name="btn_battery">2. Escludi da ottimizzazione batteria</string>
+    <string name="mode_title">Quando riaprire Mumla:</string>
+    <string name="mode_process">Solo se è chiusa (processo terminato o crash)</string>
+    <string name="mode_window">Anche se è tolta dalle app recenti (consigliato)</string>
+    <string name="mode_foreground">Sempre in primo piano: anche se si apre un\'altra app (dopo 1-2 minuti, non a schermo spento/bloccato)</string>
+    <string name="btn_start">Avvia controllo</string>
+    <string name="btn_stop">Ferma controllo</string>
+</resources>

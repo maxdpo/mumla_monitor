@@ -1,0 +1,319 @@
+Raccolta dati dalla radio in corso...
+===== DATA
+22/11/2026
+22:34
+===== DISPOSITIVO
+List of devices attached
+R252241185      device
+
+HYT-P50 Pro
+12
+P50_Pro_V1.0.02.004.01
+===== UPTIME
+ 22:34:45 up 1 min,  0 users,  load average: 10.26, 3.07, 1.06
+===== BLOCCO SCHERMO
+Trust manager state:
+ User "Owner" (id=0, flags=0xc13) (current): trusted=0, trustManaged=0, deviceLocked=0, strongAuthRequired=0x0
+   Enabled agents:
+   Events:
+
+===== PROCESSI MumlaMonitor / Mumla
+===== RECEIVER BOOT_COMPLETED REGISTRATI
+43 receivers found:
+  Receiver #0:
+    priority=1000 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    android/com.android.server.BootReceiver
+  Receiver #1:
+    priority=999 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.location.lppe.main/.LPPeBootUpReceiver
+  Receiver #2:
+    priority=100 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.dialer/.app.calllog.CallLogReceiver
+  Receiver #3:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.box01.launcher/.receivers.BootCompletedReceiver
+  Receiver #4:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.debug.loggerui/.framework.LogReceiver
+  Receiver #5:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.hytera.hyterafactorymode/com.hytera.agingtest.receiver.BootReceiver
+  Receiver #6:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.hytera.hyterafactorymode/com.hytera.agingtest2.receiver.BootReceiver
+  Receiver #7:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.calendar/.alerts.AlertReceiver
+  Receiver #8:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.cellbroadcastreceiver/.CellBroadcastReceiver
+  Receiver #9:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.contacts/.interactions.OnBootOrUpgradeReceiver
+  Receiver #10:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.dialer/com.android.voicemail.VoicemailPowerCycleReceiver
+  Receiver #11:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.gallery3d/com.mediatek.gallery3d.adapter.FeatureServiceStart
+  Receiver #12:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.imsserviceentitlement/.fcm.FcmRegistrationReceiver
+  Receiver #13:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.managedprovisioning/.BootReminder
+  Receiver #14:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.mms/.transaction.BootCompletedReceiver
+  Receiver #15:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.mtp/.MtpReceiver
+  Receiver #16:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.nfc/.NfcBootCompletedReceiver
+  Receiver #17:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.onegoalarm/.AlarmReceiver
+  Receiver #18:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.packageinstaller/.TemporaryFileManager
+  Receiver #19:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.permissioncontroller/.permission.service.LocationAccessCheck$SetupPeriodicBackgroundLocationAccessCheck
+  Receiver #20:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.permissioncontroller/.hibernation.HibernationOnBootReceiver
+  Receiver #21:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.phone/.vvm.VvmSimStateTracker
+  Receiver #22:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.phone/com.mediatek.settings.network.SprintRoamingSettingsReceiver
+  Receiver #23:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.providers.calendar/.CalendarReceiver
+  Receiver #24:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.providers.downloads/.DownloadReceiver
+  Receiver #25:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.providers.media.module/com.android.providers.media.MediaReceiver
+  Receiver #26:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.settings/com.mediatek.settings.dream.pocmanager.DreamControlBroadcastReceiver
+  Receiver #27:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.settings/.BootCompleteReceiver
+  Receiver #28:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.settings/.fuelgauge.batterytip.AnomalyConfigReceiver
+  Receiver #29:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.settings/.sim.receivers.SimCompleteBootReceiver
+  Receiver #30:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.shell/.HeapDumpReceiver
+  Receiver #31:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.android.stk/.BootCompletedReceiver
+  Receiver #32:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.dream.duplicator/.receiver.BootCompleteReceiver
+  Receiver #33:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.dream.nrm/.receiver.BootCompleteReceiver
+  Receiver #34:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.dream.protectionwarning/.BootBroadcastReceiver
+  Receiver #35:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+  Receiver #36:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+  Receiver #37:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.camera/.DisableCameraReceiver
+  Receiver #38:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.capctrl.service/.MtkCapCtrlReceiver
+  Receiver #39:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.engineermode/.boot.EmBootupReceiver
+  Receiver #40:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.simprocessor/.BootCmpReceiver
+  Receiver #41:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mediatek.telephony/.MtkPhoneAssistBroadcastReceiver
+  Receiver #42:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    it.iw2dpo.mumlamonitor/.BootReceiver
+===== SERVIZIO WATCHDOG
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  (nothing)
+===== APPOPS (overlay, background
+SYSTEM_ALERT_WINDOW: deny; rejectTime=+5m14s111ms ago
+WAKE_LOCK: allow; time=+3m34s372ms ago; duration=+2m19s716ms
+START_FOREGROUND: allow; time=+3m34s372ms ago; duration=+2m19s716ms
+===== WHITELIST BATTERIA
+system-excidle,com.android.providers.calendar,10021
+system-excidle,com.dream.nrm,1000
+system-excidle,com.android.providers.downloads,10023
+system-excidle,com.dream.dreamdevicepolicyserver,1000
+system-excidle,com.hytera.market,1000
+system-excidle,com.android.cellbroadcastreceiver,10068
+system-excidle,com.google.android.gms,10061
+system-excidle,com.android.proxyhandler,10034
+system-excidle,com.android.imsserviceentitlement,10060
+system-excidle,com.dream.duplicator,1000
+system-excidle,com.android.shell,2000
+system-excidle,com.android.emergency,10066
+system-excidle,com.android.providers.contacts,10020
+system,com.android.providers.calendar,10021
+system,com.dream.nrm,1000
+system,com.android.providers.downloads,10023
+system,com.dream.dreamdevicepolicyserver,1000
+system,com.hytera.market,1000
+system,com.android.cellbroadcastreceiver,10068
+system,com.google.android.gms,10061
+system,com.dream.duplicator,1000
+system,com.android.shell,2000
+system,com.android.emergency,10066
+user,it.iw2dpo.mumlamonitor,10086
+user,com.android.recorder,10065
+user,com.android.phone,1001
+===== STANDBY BUCKET
+5
+===== LOGCAT MumlaMonitor
+===== LOGCAT avvio e blocchi
+11-22 22:34:15.882  2168  2168 I DebugLoggerUI/LogReceiver:  -->onReceive(), action=android.intent.action.BOOT_COMPLETED
+11-22 22:34:16.219  2224  2224 D AlertReceiver: onReceive: a=android.intent.action.BOOT_COMPLETED Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.calendar/.alerts.AlertReceiver (has extras) }
+11-22 22:34:16.238  1576  1576 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+11-22 22:34:16.982  2307  2307 I BootCompletedReceiver: onReceive action: android.intent.action.BOOT_COMPLETED
+11-22 22:34:17.326  1351  1351 I VvmSimStateTracker: android.intent.action.BOOT_COMPLETED
+11-22 22:34:17.502  1358  1358 D DreamBroadcastReceiver: action=android.intent.action.BOOT_COMPLETED
+11-22 22:34:17.527   209   209 I -(2)[209:attach_thread][MUSB]usb_6765_dpidle_request 143: USB_DPIDLE_FORBIDDEN, skip_cnt<1>
+11-22 22:34:17.619  2377  2377 D HeapDumpReceiver: onReceive(): Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.shell/.HeapDumpReceiver (has extras) }
+11-22 22:34:17.656  1334  1334 D dya-BootCompleteReceiver: the device Mode is -->android.intent.action.BOOT_COMPLETED
+===== LOGCAT EVENTI
+11-22 22:33:50.600   438   438 I boot_progress_start: 8704
+11-22 22:33:53.016   438   438 I boot_progress_preload_start: 11120
+11-22 22:33:56.447   438   438 I boot_progress_preload_end: 14551
+11-22 22:33:58.261   994   994 I boot_progress_system_run: 16365
+11-22 22:33:59.674   994   994 I boot_progress_pms_start: 17777
+11-22 22:33:59.919   994   994 I boot_progress_pms_system_scan_start: 18022
+11-22 22:34:00.401   994   994 I boot_progress_pms_data_scan_start: 18505
+11-22 22:34:00.427   994   994 I boot_progress_pms_scan_end: 18531
+11-22 22:34:00.702   994   994 I boot_progress_pms_ready: 18805
+11-22 22:34:02.987   994   994 I boot_progress_ams_ready: 21090
+11-22 22:34:04.674   994  1053 I boot_progress_enable_screen: 22778
+===== PACKAGE MumlaMonitor
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c494547 it.iw2dpo.mumlamonitor/.MainActivity filter a385174
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        684369d it.iw2dpo.mumlamonitor/.BootReceiver filter 95d4712
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        684369d it.iw2dpo.mumlamonitor/.BootReceiver filter 95d4712
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Domain verification status:
+
+Key Set Manager:
+  [it.iw2dpo.mumlamonitor]
+      Signing KeySets: 42
+
+Packages:
+  Package [it.iw2dpo.mumlamonitor] (1311111):
+    userId=10086
+    pkg=Package{93da276 it.iw2dpo.mumlamonitor}
+    codePath=/data/app/~~Q84JBx_SN-c6MRXetPNIdw==/it.iw2dpo.mumlamonitor-oHGna50ilHtga9edgxAyRA==
+    resourcePath=/data/app/~~Q84JBx_SN-c6MRXetPNIdw==/it.iw2dpo.mumlamonitor-oHGna50ilHtga9edgxAyRA==
+    legacyNativeLibraryDir=/data/app/~~Q84JBx_SN-c6MRXetPNIdw==/it.iw2dpo.mumlamonitor-oHGna50ilHtga9edgxAyRA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2 minSdk=26 targetSdk=33
+    minExtensionVersions=[]
+    versionName=1.1-IW2DPO
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{93da276 it.iw2dpo.mumlamonitor}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/it.iw2dpo.mumlamonitor
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-22 22:04:01
+    firstInstallTime=2026-11-22 22:04:01
+    lastUpdateTime=2026-11-22 22:04:01
+    signatures=PackageSignatures{4025077 version:2, signatures:[3812475f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.WAKE_LOCK
+      android.permission.POST_NOTIFICATIONS
+    install permissions:
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=87960 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-96tX.frro
+        /data/resource-cache/com.android.systemui-accent-REhE.frro
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    it.iw2dpo.mumlamonitor:
+      se.lublin.mumla.beta
+  queries via intent:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=0
+
+
+Dexopt state:
+  [it.iw2dpo.mumlamonitor]
+    path: /data/app/~~Q84JBx_SN-c6MRXetPNIdw==/it.iw2dpo.mumlamonitor-oHGna50ilHtga9edgxAyRA==/base.apk
+      arm: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [it.iw2dpo.mumlamonitor]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 9122  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:47         now          42       38140           0           1           5          36          14
+          0:47         now          42       38140           0           1           5          36          14
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:47         now          38           1           1           1           1           0           0           0
+          0:47         now          38           1           1           1           1           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:47         now           2           2           0           2           1           3           6          25
+          0:47         now           2           2           0           2           1           3           6          25

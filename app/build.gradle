@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace = 'it.iw2dpo.mumlamonitor'
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId "it.iw2dpo.mumlamonitor"
+        minSdk 26
+        // 33: su Android 12 (P50pro) non servono i tipi di foreground service di Android 14
+        targetSdk 33
+        versionCode 3
+        versionName "1.2-IW2DPO"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lint {
+        abortOnError = false
+    }
+}
+
+// Nessuna dipendenza esterna: solo API Android di base, APK piccolissimo.

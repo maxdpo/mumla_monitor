@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+id btn_battery
+id btn_overlay
+id btn_start
+id btn_stop
+id mode_foreground
+id mode_group
+id mode_process
+id mode_window
+id status
+layout activity_main
+string app_name
+string btn_battery
+string btn_overlay
+string btn_start
+string btn_stop
+string intro
+string mode_foreground
+string mode_process
+string mode_title
+string mode_window

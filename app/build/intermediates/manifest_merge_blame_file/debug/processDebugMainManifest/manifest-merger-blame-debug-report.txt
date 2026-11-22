@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- IW2DPO - MumlaMonitor: controlla ogni 60 s che Mumla sia viva, altrimenti la riapre -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="it.iw2dpo.mumlamonitor"
+5    android:versionCode="3"
+6    android:versionName="1.2-IW2DPO" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+10        android:targetSdkVersion="33" />
+11
+12    <!-- Servizio sempre attivo con notifica fissa -->
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:6:5-77
+13-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:6:22-74
+14    <!-- Ripartenza automatica all'accensione della radio -->
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:8:22-78
+16    <!-- "Mostra sopra altre app": eccezione che permette di aprire Mumla dal background (Android 10+) -->
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:10:5-78
+17-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:10:22-75
+18    <!-- Richiesta di esclusione dall'ottimizzazione batteria -->
+19    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+19-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:12:5-95
+19-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:12:22-92
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:13:5-68
+20-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:14:5-77
+21-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:14:22-74
+22
+23    <!-- Android 11+: rende visibile il pacchetto di Mumla a questa app -->
+24    <queries>
+24-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:17:5-21:15
+25        <package android:name="se.lublin.mumla" />
+25-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:18:9-51
+25-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:18:18-48
+26        <package android:name="se.lublin.mumla.beta" />
+26-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:19:9-56
+26-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:19:18-53
+27        <package android:name="se.lublin.mumla.donation" />
+27-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:20:9-60
+27-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:20:18-57
+28    </queries>
+29
+30    <application
+30-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:23:5-53:19
+31        android:allowBackup="true"
+31-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:24:9-35
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@android:drawable/ic_popup_sync"
+34-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:25:9-55
+35        android:label="@string/app_name"
+35-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:26:9-41
+36        android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
+36-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:27:9-74
+37        <activity
+37-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:29:9-37:20
+38            android:name="it.iw2dpo.mumlamonitor.MainActivity"
+38-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:30:13-41
+39            android:exported="true"
+39-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:31:13-36
+40            android:launchMode="singleTop" >
+40-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:32:13-43
+41            <intent-filter>
+41-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:33:13-36:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:34:17-69
+42-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:35:17-77
+44-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:35:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:39:9-41:40
+49            android:name="it.iw2dpo.mumlamonitor.WatchdogService"
+49-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:40:13-44
+50            android:exported="false" />
+50-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:41:13-37
+51
+52        <receiver
+52-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:43:9-52:20
+53            android:name="it.iw2dpo.mumlamonitor.BootReceiver"
+53-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:44:13-41
+54            android:exported="true" >
+54-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:45:13-36
+55
+56            <!--
+57                 22-11-2026-3: priorita' alta. Il segnale di avvio viene consegnato alle app
+58                 una alla volta: senza priorita' MumlaMonitor era l'ultimo di 43 (~1 minuto).
+59            -->
+60            <intent-filter android:priority="999" >
+60-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:48:13-51:29
+60-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:48:28-50
+61                <action android:name="android.intent.action.BOOT_COMPLETED" />
+61-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:49:17-79
+61-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:49:25-76
+62                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+62-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:50:17-84
+62-->C:\mumla_monitor\app\src\main\AndroidManifest.xml:50:25-81
+63            </intent-filter>
+64        </receiver>
+65    </application>
+66
+67</manifest>
